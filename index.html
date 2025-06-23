@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+        body {
+            overflow-x: hidden;
+            margin: 0px;
+        }
+
+        .number p {
+            margin: 0px;
+
+
+        }
+
+        .number i {
+            color: rgb(174, 44, 174);
+        }
+
+        .sec-1 {
+            padding: 50px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+
+        .sec1-image img {
+            width: 100%;
+            max-width: 360px;
+            border-radius: 50%;
+        }
+
+        .sec1-image {
+            text-align: start;
+        }
+
+        .sec1-heading {
+            text-align: left;
+        }
+
+        .sec1-heading h1 {
+            margin-left: 60px;
+            font-size: 60px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        @media(max-width:577px) {
+            .sec1-heading h1 {
+                margin-left: 20px;
+                font-size: 40px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+        }
+
+        @media(max-width:577px) {
+            .button button {
+                width: 100px;
+                font-size: 13px;
+            }
+        }
+
+        .btn {
+            background-color: #6a1b9a;
+            color: white;
+        }
+
+        #btn2 {
+            background-color: #fdbd38;
+        }
+
+        #btn1:hover {
+            background-color: #811bc1;
+            color: white;
+        }
+
+        #btn2:hover {
+            background-color: #fec64f;
+            color: white;
+        }
+
+        .button {
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .sec-2-row img {
+            width: 100%;
+            max-height: 280px;
+            height: 100%;
+        }
+
+        .sec2 {
+            padding: 30px;
+            padding-bottom: 5px;
+        }
+
+        .sec-2-row {
+            padding: 30px;
+            padding-bottom: 0px;
+        }
+
+        .sec-3-row img {
+            width: 100%;
+            max-height: 280px;
+            height: 100%;
+        }
+
+        .sec-3-row {
+            padding: 30px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .sec3 {
+            padding: 30px;
+            padding-top: 0px;
+            padding-bottom: 40px;
+        }
+
+        .sec-3 {
+            text-align: center;
+            background-color: rgb(253, 189, 56);
+            padding: 50px;
+        }
+
+        .sec-4 p {
+            margin: 0px;
+            font-size: 17px;
+        }
+
+        .sec-4 {
+            padding: 30px;
+        }
+
+        .sec-4 {
+            padding: 50px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+
+        .sec4-image img {
+            width: 100%;
+            max-width: 360px;
+            border-radius: 50%;
+        }
+
+        .sec4-image {
+            text-align: center;
+        }
+
+        .sec4-heading {
+            text-align: left;
+        }
+
+        .sec4-heading h1 {
+            margin-left: 60px;
+            font-size: 60px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        @media(max-width:577px) {
+            .sec4-heading h1 {
+                margin-left: 20px;
+                font-size: 40px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+        }
+
+        @media(max-width:577px) {
+            .button button {
+                width: 100px;
+                font-size: 13px;
+            }
+        }
+
+        .sec-5 i {
+            font-size: 50px;
+        }
+
+        .sec-5 .row {
+            text-align: center;
+        }
+
+        .sec-5 {
+            padding: 30px;
+            text-align: center;
+            background-color: #FFC934;
+        }
+
+        .sec-5 .row {
+            padding: 60px;
+        }
+
+        @media(max-width:577px) {
+            .sec-5 .row p {
+
+                font-size: 13px;
+            }
+        }
+
+        .sec6 img {
+            width: 100%;
+            max-height: 300px;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .sec6 {
+            padding: 60px;
+            text-align: center;
+        }
+
+        .sec6 i {
+            font-size: 45px;
+            background-color: #6a1b9a;
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .sec6 .row {
+            padding: 40px;
+        }
+
+        .foot {
+            text-align: center
+        }
+
+        .foot .col1 {
+            text-align: center;
+            color: white;
+        }
+
+        .foot .col2 {
+            text-align: center;
+            color: white;
+        }
+
+       
+
+        .foot {
+            background-color: #8352c4;
+            padding: 50px;
+        }
+
+        .foot input {
+            width: 60%;
+            background-color: transparent;
+            color: white;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+
+        .foot input::placeholder {
+            color: white;
+            opacity: 0.7;
+        }
+        .foot h1{
+            padding-bottom: 40px;
+        }
+        
+        #btn3 {
+            background-color: #fdbd38;
+            margin-top: 40px;
+            width: 120px;
+        }
+         #btn3:hover {
+            background-color: #fec64f;
+            color: white;
+        }
+        .copyright{
+            background-color: #2c2c2c;
+            color: rgb(225, 221, 221);
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Contact</a>
+
+                </div>
+            </div>
+            <div class="number">
+                <p><i class="fa fa-phone"></i>+1(234)567-8910</p>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="row sec-1">
+            <div class="col-6 col-sm-6 sec1-heading">
+                <div class="sec1-heading">
+                    <h1 class="ms-sm-1 ms-md-3  ">For All of Your</h1>
+                    <h1 class="ms-sm-1 ms-md-3 ">Best Friend's</h1>
+                    <h1 class="ms-sm-1 ms-md-3  ">Need's</h1>
+
+                </div>
+                <div class="button">
+                    <button class="btn " id="btn1">About Us</button>
+                    <button class="btn " id="btn2">Contact Us</button>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 sec1-image">
+                <img src="360_F_270254841_otSDX3fPBgcbCiUdir82QjgyF8XSQwD5.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid sec2">
+            <h1>Choose a Category</h1>
+
+            <div class="row  sec-2-row g-1">
+                <div class="col-12 col-md-4">
+                    <img src="360_F_963717649_yYHL8c2mQfCJUtFj6eiopWfiZqWutNRL.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="cute-australian-shepherd-dog-on-600nw-2434195523.webp" alt="">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="portrait-dog_1048944-14863584.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid sec3">
+            <div class="row  sec-3-row g-1">
+                <div class="col-12 col-md-4">
+                    <img src="squishy dog.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="happy-puppy-dog-smiling-isolated-yellow-background_641503-46820.avif" alt="">
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="istockphoto-1310068143-640x640.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid sec-3">
+            <h5>Offline</h6>
+                <h1>End of Season Sale</h1>
+                <button class="btn" id="btn1"> Our Shop</button>
+        </div>
+    </section>
+    <section>
+        <div class="row sec-4">
+            <div class="col-6 col-sm-6 sec4-image">
+                <img src="happydog.jpg" alt="">
+            </div>
+            <div class="col-6 col-sm-6 sec4-heading">
+                <div class="sec4-heading">
+                    <p class="ms-sm-1 ms-md-3  ">save 20%</p>
+                    <h1 class="ms-sm-1 ms-md-3 ">End of Season Sale</h1>
+                    <p class="ms-sm-1 ms-md-3  ">save on all item.End soon so shop now</p>
+
+                </div>
+                <div class="button">
+                    <button class="btn " id="btn1">About Us</button>
+                    <button class="btn " id="btn2">Contact Us</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid sec-5">
+            <h3>Why Pets Owners Loves Us</h3>
+            <div class="row">
+                <div class="col-3 col-sm-3">
+                    <i class="fa-solid fa-award"></i>
+                    <p>Quality</p>
+                </div>
+                <div class="col-3 col-sm-3">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <p>Fair Pricing</p>
+                </div>
+                <div class="col-3 col-sm-3">
+                    <i class="fa-solid fa-eye"></i>
+                    <p>Transparency</p>
+                </div>
+                <div class="col-3 col-sm-3">
+                    <i class="fa-solid fa-people-roof"></i>
+                    <p>family business</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid sec6">
+            <i class="fab fa-instagram"></i>
+            <h1>Follow us on Instagram</h1>
+            <div class="row g-2">
+                <div class="col-12 col-md-3">
+                    <img src="cutekitty.webp" alt="">
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="cute cat.webp" alt="">
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="cutteepieca.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="catcat.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid foot">
+            <h1>Subscribe To Our NewsLetter</h1>
+            <div class="row g-2">
+                <div class="col-12 col-sm-6 col-md-6 col1">
+                    <label>Email</label> 
+                    <input type="text" placeholder="enter your email address">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col2">
+                    <label>Name </label> 
+                    <input type="text" placeholder="enter your Name" style="color:white;">
+                </div>
+            </div>
+            <button class="btn" id="btn3">Submit</button>
+        </div>
+        </section>
+
+        <section>
+            <div class="container-fluid copyright">
+            <p>&copy; 2025 dog.All Rights Reserved <a href="https://www.linkedin.com/in/arjun-p-s-42bb82311">Click here</a></p>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
